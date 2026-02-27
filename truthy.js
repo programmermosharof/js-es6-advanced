@@ -19,3 +19,13 @@ if(searchInput) {
 }else{
     console.log('Search for something else');
 }
+
+let isLoggedIn = false;
+console.log(!!isLoggedIn);
+
+let age = 25;
+if(age == '25') {
+    console.log('Age is defined');  
+}else {
+    console.log('Age is not defined');
+}
